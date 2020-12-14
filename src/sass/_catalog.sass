@@ -1,0 +1,75 @@
+.catalog
+    min-height: 1154px
+    padding-top: 58px
+    div
+        &:nth-child(3)
+            padding-bottom: 20px
+    
+    &__item
+        display: grid
+        grid-template-rows: 300px
+        grid-template-columns: repeat(auto-fill, minmax(300px, 400px))
+        grid-column-gap: 90px
+        grid-row-gap: 20px
+        justify-content: center
+        align-items: center
+        margin-bottom: 102px
+        grid-auto-rows: auto
+        grid-auto-columns: auto
+        
+    &__img
+        object-fit: cover
+        box-sizing:border-box
+        max-width: 100%
+    &__descr
+        color: #000000
+        font-family: "PT Serif"
+        font-size: 16px
+        font-weight: 400
+        line-height: 22px
+        text-align: left
+    &__specification
+        position: relative
+        display: grid
+        grid-template-columns: repeat(5, min-content)
+        grid-template-rows: 60px
+        align-items: center
+        justify-items: center
+        justify-content: space-between
+        max-height: 31px
+        margin-top: 50px
+        min-width: 290px
+        div
+            display: flex
+            justify-content: space-between
+            align-items: flex-start
+        &-key
+            color: #000000
+            font-family: "PT Serif"
+            font-size: 14px
+            line-height: 14px
+            font-weight: 700
+            text-align: left
+        &-value
+            color: #000000
+            font-family: "PT Serif"
+            font-size: 35px
+            line-height: 35px
+            font-weight: 400
+            text-align: left
+    &__btn
+        margin-top: 47px
+    &__figure
+        position: relative
+        width: 53px
+        height: 53px
+        &-slash
+            position: absolute
+            width: 50px
+            height: 4px
+            background-color: #e5e5e5
+            transform: skewy(-45deg)
+            top: 23px
+            left: -4px
+    .divder
+        margin-top: 100px

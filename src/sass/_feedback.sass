@@ -1,0 +1,43 @@
+.feedback
+    padding-top: 103px
+    min-height: 620px
+    background: url(../img/footer_bg.jpg) center (center / cover) no-repeat
+    &__form
+        display: grid
+        justify-content: center
+        grid-template-columns: repeat(auto-fill, minmax(310px,360px))
+        grid-template-rows: 51px 136px 63px
+        grid-auto-rows: auto
+        column-gap: 30px
+        row-gap: 30px
+        margin: 69px auto
+        max-width: 750px
+        
+    &__input
+        
+        height: 51px
+        border: 1px solid #dddddd
+        background-color: #ffffff
+        color: #c3c3c3
+        font-family: "PT Serif"
+        font-size: 18px
+        font-weight: 400
+        padding: 0 19px 0 19px
+        
+    &__textarea
+        max-width: 95vw
+        height: 136px
+        border: 1px solid #dddddd
+        background-color: #ffffff
+        grid-column: 1 / 3
+        color: #c3c3c3
+        font-family: "PT Serif"
+        font-size: 18px
+        font-weight: 400
+        padding: 20px 19px 0 19px
+        
+    &__btn
+        grid-column: 1 / 3
+        justify-self: center
+        align-self: end
+        
